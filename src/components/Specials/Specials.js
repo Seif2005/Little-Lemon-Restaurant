@@ -1,5 +1,5 @@
-import Button from "../../Button/Button";
-import Order from "../../Order/Order";
+import Button from "../Button/Button";
+import Order from "../Order/Order";
 import "./Specials.css"
 
 

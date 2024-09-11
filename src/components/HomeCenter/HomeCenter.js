@@ -1,5 +1,5 @@
 import "./HomeCenter.css"
-import Button from "../../Button/Button";
+import Button from "../Button/Button";
 
 function HomeCenter(){
     return(
