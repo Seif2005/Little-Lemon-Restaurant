@@ -8,8 +8,8 @@ import Testimonials from "../components/Testimonials/Testimonials";
 function HomePage(){
     return (
         <>
-        <Header/>
-        <HomeCenter/>
+        <Header />
+        <HomeCenter title = "Little Lemon" subtitle = "Chicago" imgSrc = "src\assets\restauranfood.jpg" caption = "We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist." isbutton = {true}/>
         <Specials/>
         <Testimonials/>
         <About/>

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
-import TestPage from "./pages/TestPage";
+import ReservePage from "./pages/ReservePage";
 
 const router = createBrowserRouter([
     {
@@ -9,15 +9,7 @@ const router = createBrowserRouter([
     },
     {
         path: "/reserve",
-        element: <></>
-    },
-    {
-        path: "/confirmed",
-        element: <></>
-    },
-    {
-      path: "/test",
-      element:<TestPage/>
+        element: <ReservePage/>
     }
   ]);
   export default router;

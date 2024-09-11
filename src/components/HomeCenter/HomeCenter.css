@@ -31,14 +31,15 @@
     color: #EDEFEE;
     font-size: 25px;
     font-weight: 100;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: -10px;
 }
 .lower-text{
     color: #EDEFEE;
     font-weight:normal;
     font-size: 22px;
     font-family: "Markazi Text";
-    width: 200px;
+    width: 250px;
     text-align: left;
 }
 .text-area{

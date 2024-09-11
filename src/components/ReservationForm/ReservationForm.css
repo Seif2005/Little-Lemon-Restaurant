@@ -1,0 +1,11 @@
+.form-area{
+    height: 500px;
+    align-content:center ;
+    margin-left: 200px;
+}
+
+.form-container{
+    width: 80%;
+    height:80%;
+    background-color: blueviolet;
+}
