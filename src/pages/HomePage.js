@@ -2,6 +2,7 @@ import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import HomeCenter from "../components/HomeCenter/HomeCenter";
 import Specials from "../components/Specials/Specials";
+import Testimonials from "../components/Testimonials/Testimonials";
 
 function HomePage(){
     return (
@@ -9,6 +10,7 @@ function HomePage(){
         <Header/>
         <HomeCenter/>
         <Specials/>
+        <Testimonials/>
         <Footer/>
         </>
     )

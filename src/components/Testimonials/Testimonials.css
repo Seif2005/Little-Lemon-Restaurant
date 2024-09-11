@@ -1,0 +1,21 @@
+
+
+.testimonials-section{
+    background-color: lightgrey;
+    height: 500px;
+    align-content: center;
+}
+.testi-title{
+    text-align: center;
+    font-family: "Markazi Text";
+    font-size: 56px;
+    margin-bottom: 80px;
+}
+.aligned-testi{
+    display: flex;
+    align-items: center;
+    position:static;
+    text-align: center;
+    align-content: center;
+    margin-left: 435px;
+}

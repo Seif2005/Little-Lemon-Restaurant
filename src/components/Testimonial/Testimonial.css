@@ -1,0 +1,21 @@
+
+
+.single-testi{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+.stars{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.testimonial-username{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.testimonial-comment{
+    margin-top: 400px;
+    margin-bottom: 10px;
+}
