@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
-@import url(https://fonts.googleapis.com/css?family=MarkaziText);
+@import url(https://fonts.googleapis.com/css?family=Markazi%20Text);
 
 .main-part{
     background-color: #495e57;
-    height: 400px;
+    height: 350px;
     display: flex;
     justify-content: space-between;
 }
@@ -36,7 +36,7 @@
 .lower-text{
     color: #EDEFEE;
     font-weight:normal;
-    font-size: 25px;
+    font-size: 22px;
     font-family: "Markazi Text";
     width: 200px;
     text-align: left;

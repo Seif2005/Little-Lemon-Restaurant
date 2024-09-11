@@ -9,7 +9,7 @@ function HomeCenter(){
                 <h1 className="restaurant-title">Little Lemon</h1>
                 <h3 className="chicago">Chicago</h3>
                 <h5 className="lower-text">We are a family-owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</h5>
-                <Button text = "Reserve a Table" action="/reserve"/>
+                <Button text = "Reserve a Table" action="/test"/>
                 </article>
             </section>
             <article className="column">
