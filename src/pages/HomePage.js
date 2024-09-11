@@ -1,7 +1,13 @@
+import Footer from "../components/Footer/Footer";
+import Header from "../components/Header/Header";
+import HomeCenter from "../components/HomeCenter/HomeCenter";
+
 function HomePage(){
     return (
         <>
-        <h1>HomePage</h1>
+        <Header/>
+        <HomeCenter/>
+        <Footer/>
         </>
     )
 }

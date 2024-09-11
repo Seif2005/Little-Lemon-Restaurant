@@ -1,0 +1,16 @@
+.main-part{
+    background-color: #495e57;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.column{
+    flex: 1;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+.main-image{
+    border-radius: 16px;
+}
