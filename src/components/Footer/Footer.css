@@ -1,0 +1,28 @@
+
+
+.footer-section{
+    display: flex;
+    background-color: #d9d9d9;
+    height: 300px;
+    width: 100%;
+    place-items: center;
+}
+.footer-column{
+    text-align: center;
+    flex: 1;
+}
+.footer-title{
+    font-size: 22px;
+    color: #495E57;
+    font-family: "Karla";
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-data{
+    font-size: 20px;
+    font-family: "Karla";
+    margin-bottom: 5px;
+}
+.contact-section{
+    margin-bottom: 85px;
+}
