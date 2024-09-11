@@ -9,3 +9,16 @@
     height:80%;
     background-color: blueviolet;
 }
+.form-label{
+    font-family: "Karla";
+    font-size: 22px;
+    margin-bottom: -12px;
+}
+input{
+    border-radius: 8px;
+
+}
+input:focus{
+    border-color: yellow;
+    border-width: 2px;
+}
