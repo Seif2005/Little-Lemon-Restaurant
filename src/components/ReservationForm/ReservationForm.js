@@ -27,7 +27,8 @@ function ReservationForm() {
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            <Button text="Reserve" action="/reserve"/>
+            {/*Assign onclick */}
+            <Button text="Reserve" />
         </form>
         {true?<FormSuccessMessage/>:<></>}
         </section>

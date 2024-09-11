@@ -10,7 +10,7 @@ function Specials(){
         <section className="container">
         <section className="text-button">
             <h1 className="column specials">Specials</h1>
-            <Button text = "Order Online" action="/order" className="column button"/>
+            <Button text = "Order Online" className="column button"/>
         </section>
         <section className="orders">
             <section className="order">

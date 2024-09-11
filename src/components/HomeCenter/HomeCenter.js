@@ -1,7 +1,12 @@
 import "./HomeCenter.css"
 import Button from "../Button/Button";
+import { useNavigate } from "react-router-dom";
 
 function HomeCenter(props){
+    const navigate  = useNavigate()
+    function handleClick(){
+        navigate(props.navigate);
+    }
     return(
         <div className="main-part">
             <section className="column">
@@ -9,7 +14,7 @@ function HomeCenter(props){
                 <h1 className="restaurant-title">{props.title}</h1>
                 <h3 className="chicago">{props.subtitle}</h3>
                 <h5 className="lower-text">{props.caption}</h5>
-                {props.isbutton? <Button text = "Reserve a Table" action="/reserve"/>:<></>}
+                {props.isbutton? <Button text = "Reserve a Table" onClick={handleClick}/>:<></>}
                 </article>
             </section>
             <article className="column">

@@ -8,7 +8,7 @@ function ReservePage(){
     return (
         <>
         <Header/>
-        <HomeCenter title = "Reserve Your Table" subtitle = "Little Lemon Restaurant" imgSrc = "src\assets\restaurant.jpg" isbutton = {false} caption = "Candlelit tables, the aroma of sizzling kebabs, and laughter echoing through the cozy corners—reserve your spot at Little Lemon and let your taste buds embark on a Mediterranean adventure!"/>
+        <HomeCenter title = "Reserve Your Table" subtitle = "Little Lemon Restaurant" imgSrc = "src\assets\restaurant.jpg" isbutton = {false} navigate="/none" caption = "Candlelit tables, the aroma of sizzling kebabs, and laughter echoing through the cozy corners—reserve your spot at Little Lemon and let your taste buds embark on a Mediterranean adventure!"/>
         <ReservationForm/>
         <Footer/>
         </>
