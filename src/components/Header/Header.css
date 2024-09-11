@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 .header {
-    background-color: white;
+    background-color: #edefee;
     padding: 20px 0;
     border-bottom: 1px solid #eaeaea;
 }
@@ -31,14 +33,16 @@
 
 .nav-links li {
     margin-left: 20px;
+    
 }
 
 .nav-links a {
     color: #333333;
     text-decoration: none;
     font-size: 20px;
-    font-family:"Robota";
+    font-family:"Karla";
     font-weight: bold;
+    font-weight: 100;
 }
 
 .nav-links a:hover {

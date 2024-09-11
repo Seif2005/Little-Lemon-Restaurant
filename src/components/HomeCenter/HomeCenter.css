@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i');
+@import url(https://fonts.googleapis.com/css?family=MarkaziText);
+
 .main-part{
     background-color: #495e57;
-    height: 300px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
 }
@@ -10,7 +13,35 @@
     align-content: center;
     align-self: center;
     text-align: center;
+    position: relative;
+    place-items: center;
 }
 .main-image{
     border-radius: 16px;
+    width: 375px;
+    height: 325px;
+}
+.restaurant-title{
+    font-size: 48px;
+    color: #f4ce14;
+    font-family:"Roboto";
+}
+.chicago{
+    font-family: "Markazi Text";
+    color: #EDEFEE;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+.lower-text{
+    color: #EDEFEE;
+    font-weight:normal;
+    font-size: 25px;
+    font-family: "Markazi Text";
+    width: 200px;
+    text-align: left;
+}
+.text-area{
+    text-align: left;
+    margin-left: 300px;
 }
