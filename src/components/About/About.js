@@ -11,7 +11,7 @@ function About(){
                         <p className="about-text">Little Lemon was founded by Italian brothers Mario and Adrian, who combined family recipes with a modern twist to create a delightful Mediterranean dining experience. Their passion for authentic flavors and warm hospitality has made Little Lemon a beloved spot for locals and visitors alike.</p>
                     </section>
                     <section className="about-column about-image">
-                        <img src="src\assets\restauranfood.jpg"/>
+                        <img src="src\assets\restauranfood.jpg" alt="image here"/>
                     </section>
                 </section>
             </section>

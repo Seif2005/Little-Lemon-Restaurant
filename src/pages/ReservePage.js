@@ -9,7 +9,7 @@ function ReservePage(){
 
     const [availableTimes,setAvailableTimes] = useState([]);
     function initializeAvailableTimes(){
-        setAvailableTimes(["17:00","18:00","19:00","20:00","21:00","22:00"])
+        setAvailableTimes(["17:30","19:00","20:30","21:30","22:00"])
     }
     return (
         <>
