@@ -1,36 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Button from '../Button/Button';
 import "./ReservationForm.css"
 import FormSuccessMessage from '../FormSuccessMessage/FormSuccessMessage';
 function ReservationForm() {
-
+    const [success,setSuccess] = useState(false);
+    function handleReserveClick(e){
+        setSuccess(true);
+        e.preventDefault();
+        console.log(`date:${date}, time:${time}, guests:${guests}, occasion:${occasion}`)
+    }
+    const [date,setDate] = useState();
+    const [time,setTime] = useState("17:00");
+    const availableTimes = ["17:00","18:00","19:00","20:00","21:00","22:00"]
+    const [guests,setGuests] = useState(1);
+    const [occasion,setOccasion] = useState("Birthday")
 
     return (
         <section className='form-area'>
         <form style={{ display: 'grid', maxWidth: '250px', gap: '20px' }}>
             <label htmlFor="res-date" className='form-label'>Choose date</label>
-            <input type="date" id="res-date" />
+            <input type="date" id="res-date" value={date} onChange={(e)=>setDate(e.target.value)}/>
             <label htmlFor="res-time" className='form-label'>Choose time</label>
-            <select id="res-time">
-                <option>17:00</option>
-                <option>18:00</option>
-                <option>19:00</option>
-                <option>20:00</option>
-                <option>21:00</option>
-                <option>22:00</option>
+            <select id="res-time" value={time} onChange={(e)=>setTime(e.target.value)}>
+            {availableTimes.map((droptime, index) => (
+        <option key={index} value={droptime}>
+          {droptime}
+        </option>
+      ))}
             </select>
             <label htmlFor="guests" className='form-label'>Number of guests</label>
-            <input type="number" placeholder="1" min="1" max="10" id="guests" />
+            <input type="number" placeholder="1" min="1" max="10" id="guests" value={guests} onChange={(e)=>setGuests(e.target.value)}/>
             <label htmlFor="occasion" className='form-label'>Occasion</label>
-            <select id="occasion">
-                <option>Occasion</option>
+            <select id="occasion" value={occasion} onChange={(e)=>setOccasion(e.target.value)}>
                 <option>Birthday</option>
                 <option>Anniversary</option>
             </select>
-            {/*Assign onclick */}
-            <Button text="Reserve" />
+            <Button text="Reserve" onClick = {handleReserveClick}/>
         </form>
-        {true?<FormSuccessMessage/>:<></>}
+        {success?<FormSuccessMessage/>:<></>}
         </section>
     );
 }

@@ -4,7 +4,7 @@ function Footer(){
         <>
         <section className="footer-section">
             <section className="footer-column">
-                <img src="logo.png"/>
+                <img src="src\assets\logo.png"/>
             </section>
             <section className="footer-column">
                 <h5 className="footer-title">App Navigation</h5>
