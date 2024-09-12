@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Button from '../Button/Button';
 import "./ReservationForm.css"
 import FormSuccessMessage from '../FormSuccessMessage/FormSuccessMessage';
-function ReservationForm() {
+
+function ReservationForm(props) {
     const [success,setSuccess] = useState(false);
     function handleReserveClick(e){
         setSuccess(true);
@@ -11,18 +12,22 @@ function ReservationForm() {
     }
     const [date,setDate] = useState();
     const [time,setTime] = useState("17:00");
-    const availableTimes = ["17:00","18:00","19:00","20:00","21:00","22:00"]
     const [guests,setGuests] = useState(1);
     const [occasion,setOccasion] = useState("Birthday")
+    function onDateChosen(e){
+        setDate(e.target.value);
+        props.initializeAvailableTimes();
+    }
+    
 
     return (
         <section className='form-area'>
         <form style={{ display: 'grid', maxWidth: '250px', gap: '20px' }}>
             <label htmlFor="res-date" className='form-label'>Choose date</label>
-            <input type="date" id="res-date" value={date} onChange={(e)=>setDate(e.target.value)}/>
+            <input type="date" id="res-date" value={date} onChange={onDateChosen}/>
             <label htmlFor="res-time" className='form-label'>Choose time</label>
             <select id="res-time" value={time} onChange={(e)=>setTime(e.target.value)}>
-            {availableTimes.map((droptime, index) => (
+            {props.availableTimes.map((droptime, index) => (
         <option key={index} value={droptime}>
           {droptime}
         </option>
