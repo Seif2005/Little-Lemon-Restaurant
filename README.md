@@ -120,7 +120,3 @@ If you have any questions, feedback, or issues, feel free to reach out:
 
 - **GitHub**: [Seif2005](https://github.com/Seif2005)
 - **Email**: seif.m05@gmail.com
-
----
-
-Feel free to enhance this README further with additional details or visuals to showcase the project's uniqueness!
