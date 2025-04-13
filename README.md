@@ -64,8 +64,6 @@ Once the application is running, you can explore its features as follows:
 3. **Responsive Interaction**:
    - Test the application across various devices to experience its responsive design.
 
-### Screenshots
-*(Add screenshots or visuals here to demonstrate the UI and key features.)*
 
 ---
 
