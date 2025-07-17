@@ -1,7 +1,8 @@
 import React from 'react';
 import "./Header.css"
-import { Link, useNavigate } from 'react-router-dom';
-import HomePage from '../../pages/HomePage';
+import { useNavigate } from 'react-router-dom';
+import restaurantImage from '../../assets/restaurant.jpg';
+
 const Header = () => {
     const navigate = useNavigate();
     function handleLogoClick(){
@@ -13,7 +14,7 @@ const Header = () => {
     return (
         <header className="header">
             <div className="nav-container">
-                <img src="src/assets/restaurant.jpg" alt="Little Lemon Logo" className="logo" onClick={handleLogoClick}/>
+                <img src={restaurantImage} alt="Little Lemon Logo" className="logo" onClick={handleLogoClick}/>
                 <nav>
                     <ul className="nav-links">
                         <li><a href='' onClick={handleHomeClick}>Home</a></li>

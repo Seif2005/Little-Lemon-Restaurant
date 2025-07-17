@@ -1,10 +1,12 @@
 import "./Footer.css"
+import logo from "../../assets/logo.png"
+
 function Footer(){
     return(
         <>
         <section className="footer-section">
             <section className="footer-column">
-                <img src="src\assets\logo.png" alt="logo here"/>
+                <img src={logo} alt="logo here"/>
             </section>
             <section className="footer-column">
                 <h5 className="footer-title">App Navigation</h5>

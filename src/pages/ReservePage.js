@@ -3,6 +3,7 @@ import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import HomeCenter from "../components/HomeCenter/HomeCenter";
 import ReservationForm from "../components/ReservationForm/ReservationForm";
+import restaurantImg from "../assets/restaurant.jpg"
 
 
 function ReservePage(){
@@ -14,7 +15,7 @@ function ReservePage(){
     return (
         <>
         <Header/>
-        <HomeCenter title = "Reserve Your Table" subtitle = "Little Lemon Restaurant" imgSrc = "src\assets\restaurant.jpg" isbutton = {false} navigate="/none" caption = "Candlelit tables, the aroma of sizzling kebabs, and laughter echoing through the cozy corners—reserve your spot at Little Lemon and let your taste buds embark on a Mediterranean adventure!"/>
+        <HomeCenter title = "Reserve Your Table" subtitle = "Little Lemon Restaurant" imgSrc = {restaurantImg} isbutton = {false} navigate="/none" caption = "Candlelit tables, the aroma of sizzling kebabs, and laughter echoing through the cozy corners—reserve your spot at Little Lemon and let your taste buds embark on a Mediterranean adventure!"/>
         <ReservationForm availableTimes = {availableTimes} initializeAvailableTimes = {initializeAvailableTimes}/>
         <Footer/>
         </>
