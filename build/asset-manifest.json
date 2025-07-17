@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a5472a0d.css",
+    "main.js": "/static/js/main.be2720aa.js",
+    "static/js/453.fabf23c0.chunk.js": "/static/js/453.fabf23c0.chunk.js",
+    "static/media/greek salad.jpg": "/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/restauranfood.jpg": "/static/media/restauranfood.e8abf5b772b6817189aa.jpg",
+    "static/media/restaurant.jpg": "/static/media/restaurant.324d0f99bdf19400a0f7.jpg",
+    "static/media/bruschetta.jpg": "/static/media/bruschetta.b8c9e5d11ae57734c63c.jpg",
+    "index.html": "/index.html",
+    "main.a5472a0d.css.map": "/static/css/main.a5472a0d.css.map",
+    "main.be2720aa.js.map": "/static/js/main.be2720aa.js.map",
+    "453.fabf23c0.chunk.js.map": "/static/js/453.fabf23c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5472a0d.css",
+    "static/js/main.be2720aa.js"
+  ]
+}
